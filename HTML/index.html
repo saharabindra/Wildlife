@@ -1,0 +1,841 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WildLife</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" type="text/css" href="css/slimmenu.min.css">
+<link href="./style.css" rel="stylesheet">
+<link href="./responsive.css" rel="stylesheet">
+</head>
+<body>
+    <form action="#">
+    <div class="modal fade headmodal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Book Your Ticket now</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Name</label>
+                  <input type="text" class="form-control" id="Name">
+                  <div class="error-text">Name Can't be blank</div>
+                </div>
+                <div class="mb-3">
+                    <label for="message-text" class="col-form-label">Contact Number</label>
+                    <input type="text" class="form-control" id="ContactNumber">
+                    <div class="error-text">Contact Number Can't be blank</div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="message-text" class="col-form-label">Email</label>
+                    <input type="text" class="form-control" id="Email">
+                    <div class="error-text">Email Can't be blank</div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="birthday"  class="col-form-label">Date of Booking</label>
+                    <input type="date" id="birthday" name="birthday" class="form-control" id="DateofBooking">
+                    <div class="error-text">Date of Booking Can't be blank</div>
+                  </div>
+                <div class="mb-3">
+                  <label for="message-text" class="col-form-label">Message</label>
+                  <textarea class="form-control" id="Message"></textarea>
+                  <div class="error-text">Message Can't be blank</div>
+                </div>
+                 
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="close" data-bs-dismiss="modal">Cancel</button>
+              <button type="submit" class="send">Confirm Booking</button>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </form>
+    </section>
+        <header class="headersec">
+            <section class="topbar">
+                  <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-4">
+                            <ul class="headsocial">
+                                <li><img src="./Images/ICONS/fb.svg"></li>
+                                <li><img src="./Images/ICONS/twitter.svg"></li>
+                                <li><img src="./Images/ICONS/Play.svg"></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-8 col-8">
+                            <ul class="headinfo">
+                                <li><a href="tel:8116561160"><img src="./Images/ICONS/phone.svg">  +91 8116561160</a></li>
+                                <li><a href="mailto:8116561160"><img src="./Images/ICONS/mail1.svg">  subhamblue42@gmail.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                  </div>
+
+              </section>
+               
+              <section class="headbar">
+                       <div class="container">
+                            <div class="row">
+                                <div class="col-lg-2"><div class="logo"><img src="./Images/logo/logo.png"></div></div>
+                                <div class="col-lg-7">
+                                
+                                   <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="Aboutus.html">Know The Zoo</a></li>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="animal.html">Animals</a></li>
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li ><a href="contact.html">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-3">
+                                    <button class="button1" data-bs-toggle="modal" data-bs-target="#exampleModal">Book A Ticket</button>
+                                    </div>
+                                </div>
+                                
+                               
+                            </div>
+                            
+                            
+              </section>
+            </header>
+            <header class="mobheadersec">
+                
+                <section class="topbar">
+                    <div class="container-fluid">
+                      <div class="row">
+                          <div class="col-md-4 col-4">
+                              <ul class="headsocial">
+                                  <li><img src="./Images/ICONS/fb.svg"></li>
+                                  <li><img src="./Images/ICONS/twitter.svg"></li>
+                                  <li><img src="./Images/ICONS/Play.svg"></li>
+                              </ul>
+                          </div>
+                          <div class="col-md-8 col-8">
+                              <ul class="headinfo">
+                                  <li><a href="tel:8116561160"><img src="./Images/ICONS/phone.svg">  +91 8116561160</a></li>
+                                  <li><a href="mailto:8116561160"><img src="./Images/ICONS/mail1.svg">  subhamblue42@gmail.com</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                    </div>
+  
+                </section>
+                <section class="headbar">
+                    <div class="container-fluid">
+                        <button class="button1" data-bs-toggle="modal" data-bs-target="#exampleModal">Book A Ticket</button>
+                    <ul class="slimmenu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Aboutus.html">Know The Zoo</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="animal.html">Animals</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li ><a href="contact.html">Contact Us</a></li>
+                    </ul>     
+                </div>
+                </section>
+
+
+            </header>
+            <!--Banner section-->
+              <section class="bannersec"> 
+                
+                <div class="owl-carousel owl-theme" id="banner_slider">
+                         
+                 
+
+                 <div class="item">
+                 <div class="image-position">
+                    <div class="container">
+                        <h2>Explore Our Animals</h2>
+                        <h1>The Best Experience Of Joy</h1>
+                           <a href="#" class="discoverbut">Discover more</a>
+                       </div>
+
+                 </div>
+                 <img src="./Images/banner/Gujarat-cubs.jpg"/>
+                </div>
+
+                <div class="item">
+                    <div class="image-position">
+                       <div class="container">
+                           <h2>Explore Our Animals</h2>
+                           <h1>The Best Experience Of Joy</h1>
+                              <a href="#" class="discoverbut">Discover more</a>
+                          </div>
+   
+                    </div>
+                    <img src="./Images/banner/Lion_banner.jpg"/>
+                   </div>
+
+            
+                </div> 
+              </section>
+              <!--Banner section close-->
+              <section class="bodysec">
+                <div class="topsec">
+                    <div class="container">
+                        <div class="top-bg-sec">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-12 topseccontbdr">
+                                    <div class="row">
+                                    <div class="col-lg-3 col-md-3 col-2">
+                                           <img src="./Images/topsec/ticket.png">
+                                    </div>
+                                    <div class="col-lg-9 col-md-9 col-10">
+                                        <H2>Buy Tickets</H2>
+                                           <P>Lorem ium dolor sit ameted pisicing elit sed do ut.</P>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-12 topseccontbdr">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-3 col-2">
+                                               <img src="./Images/topsec/event.png">
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-10">
+                                            <H2>Buy Tickets</H2>
+                                               <P>Lorem ium dolor sit ameted pisicing elit sed do ut.</P>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-12 topseccontbdr">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-3 col-2">
+                                               <img src="./Images/topsec/mapping.png">
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-10">
+                                            <H2>Buy Tickets</H2>
+                                               <P>Lorem ium dolor sit ameted pisicing elit sed do ut.</P>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+              </section>
+              
+              <!--First contain section-->
+              <section class="firstcontsec" id="Know The Zoo">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                
+                                <div class="firstsecimg">
+                                    <div class="aboutshape" style="background-image:url(./Images/aboutsec/dotshape.png);"></div>
+                                <div class="firstcontfirstimg">
+                                  <img src="./Images/aboutsec/firstcontfirstimg.jpg">
+                                </div>
+                                <div class="firstcontsecondimg">
+                                    <img src="./Images/aboutsec/logo.png" class="imgbord">
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="firstcontinfo">
+                                <h3>Welcome to WildLyf Zoo</h3>
+                                <h5>Help us to protect wildlife around the world.</h5>
+                                <p>There are many variations of passages of available but the majority have 
+                                    suffered alteration in some form, 
+                                    by injected humou or randomised words even slightly believable.</p>
+                                    <ul class="arrow_right_info">
+                                        <li><img src="./Images/ICONS/arrow_right.svg"><span class="abouthirdcont">Lorem Ipsum is not simply random text.</span></li>
+                                        <li><img src="./Images/ICONS/arrow_right.svg"><span class="abouthirdcont">If you are going to use a passage.</span></li>
+                                        <li><img src="./Images/ICONS/arrow_right.svg"><span class="abouthirdcont">Making this the first true generator on the Internet.</span></li>
+                                    </ul>
+                                    <a href="#" class="discoverbut">Discover more</a>
+                                </div>
+                            </div>
+                        
+                        </div>
+
+                       
+                    </div>
+
+              </section>
+              <!--First contain section end-->
+
+          <!--Second contain section-->
+
+          <section class="secondcontsec" style="background-image: url(../HTML/Images/onlinesec/Mask\ group.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="leftimg">
+                                <img src="./Images/onlinesec/leftimg.jpg">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 ">
+                            <div class="secondcontinfo">
+                            <h3>With the online</h3>
+                            <h5>With the online text generator you can process your personal Lorem Ipsum enriching it with html elements that define its structure, 
+                                with the possibility to insert external links, but not only.</h5>
+                                <ul class="arrow_right_info">
+                                    <li><img src="./Images/ICONS/arrow_right.svg"><span class="abouthirdcont">Lorem Ipsum is not simply random text.</span></li>
+                                    <li><img src="./Images/ICONS/arrow_right.svg"><span class="abouthirdcont">If you are going to use a passage.</span></li>
+                                    <li><img src="./Images/ICONS/arrow_right.svg"><span class="abouthirdcont">Making this the first true generator on the Internet.</span></li>
+                                </ul>
+                                <a href="#" class="discoverbut">Discover more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+          </section>
+          <!--Second contain section end-->
+
+          <!--Our service section-->
+          <section class="servicesec" id="services">
+              <div class="container">
+                      <h2>Our Services</h2>
+                <div class="row">
+                      <div class="col-lg-4 col-md-4 mt-4">
+                             <div class="service_img">
+                                <div class="servicecontain">
+                                    <div class="serviceiconimg">
+                                        <img src="./Images/our-service/icon/1st.png">
+                                    </div>
+                                    <h3>Save Animals</h3>
+                                    <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. 
+                                        Consequatur Possimus Assumenda Dolores Odit.</p>
+                                </div>
+                                  <img src="Images/our-service/2nd.jpg">
+                             </div>
+
+                      </div>   
+                      <div class="col-lg-4 col-md-4 mt-4">
+                        <div class="service_img">
+                           <div class="servicecontain">
+                               <div class="serviceiconimg">
+                                   <img src="./Images/our-service/icon/1st.png">
+                               </div>
+                               <h3>Save Animals</h3>
+                               <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. 
+                                   Consequatur Possimus Assumenda Dolores Odit.</p>
+                           </div>
+                             <img src="Images/our-service/2nd.jpg">
+                        </div>
+
+                 </div>
+                 <div class="col-lg-4 col-md-4 mt-4">
+                    <div class="service_img">
+                       <div class="servicecontain">
+                           <div class="serviceiconimg">
+                               <img src="./Images/our-service/icon/1st.png">
+                           </div>
+                           <h3>Save Animals</h3>
+                           <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. 
+                               Consequatur Possimus Assumenda Dolores Odit.</p>
+                       </div>
+                         <img src="Images/our-service/2nd.jpg">
+                    </div>
+
+             </div>  
+                </div>
+              </div>
+          </section>
+          <!--Our service section close-->
+
+          <!--Our Animal section-->
+          <section class="ouranimalsec" id="animals">
+            <div class="container">
+                    <h2 class="mt-5">Our Animals</h2>
+              <div class="row">
+                    <div class="col-lg-4 col-md-6 col-6 mt-4">
+                               <div class="ouranimal_img">
+                                     <img src="./Images/ouranimal/1st.jpg">
+                                     <div class="ouranimal_info">
+                                        <h6>Mammals</h6>
+                                        <h4>Zebra</h4>
+                                       </div>
+                               </div>
+                           </div>
+                           <div class="col-lg-4 col-md-6 col-6 mt-4">
+                            <div class="ouranimal_img">
+                                  <img src="./Images/ouranimal/2nd.jpg">
+                                  <div class="ouranimal_info">
+                                     <h6>Birds</h6>
+                                     <h4>Penguin</h4>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-6 mt-4">
+                            <div class="ouranimal_img">
+                                  <img src="./Images/ouranimal/3rd.jpg">
+                                  <div class="ouranimal_info">
+                                     <h6>Reptiles</h6>
+                                     <h4>Tortoise</h4>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-6 mt-4">
+                            <div class="ouranimal_img">
+                                  <img src="./Images/ouranimal/4th.jpg">
+                                  <div class="ouranimal_info">
+                                     <h6>Mammals</h6>
+                                     <h4>Tiger</h4>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4  col-md-6 col-6 mt-4">
+                            <div class="ouranimal_img">
+                                  <img src="./Images/ouranimal/5th.jpg">
+                                  <div class="ouranimal_info">
+                                     <h6>Birds</h6>
+                                     <h4>Peacock</h4>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-6 mt-4">
+                            <div class="ouranimal_img">
+                                  <img src="./Images/ouranimal/6th.jpg">
+                                  <div class="ouranimal_info">
+                                     <h6>Reptiles</h6>
+                                     <h4>Snake</h4>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>   
+           </div>  
+            
+        </section>
+        <!--Our service section close-->
+
+        <!--Visitors Reviews section-->
+        <section class="Reviewsec" style="background-image: url(./Images/Testimonial/background_img.jpg);">
+               <div class="container">
+                <h2>Visitors Review</h2>
+                <div class="owl-carousel owl-theme" id="testimonial_slider">
+                    <div class="item">
+                     <div class="card">
+                        <div class="testiperimg">
+                            <img src="./Images/Testimonial/1stperson.jpg">
+                           </div>
+                           <p>Lorem ipsum is a placeholder text commonly 
+                            used to demonstrate the 
+                            visual form of a document or a typeface without
+                             relying on meaningful content. 
+                              Lorem ipsum may be used as a placeholder 
+                            before final copy is available.</p>
+                            <ul class="fa_icon">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-regular fa-star"></i></li>
+                            </ul>
+                            <h6>Shane Warn, Australia</h6>
+                     </div>
+                    </div>
+                    <div class="item">
+                        <div class="card">
+                           <div class="testiperimg">
+                               <img src="./Images/Testimonial/1stperson.jpg">
+                              </div>
+                              <p>Lorem ipsum is a placeholder text commonly 
+                               used to demonstrate the 
+                               visual form of a document or a typeface without
+                                relying on meaningful content. 
+                                 Lorem ipsum may be used as a placeholder 
+                               before final copy is available.</p>
+                               <ul class="fa_icon">
+                                   <li><i class="fa-solid fa-star"></i></li>
+                                   <li><i class="fa-solid fa-star"></i></li>
+                                   <li><i class="fa-solid fa-star"></i></li>
+                                   <li><i class="fa-solid fa-star"></i></li>
+                                   <li><i class="fa-regular fa-star"></i></li>
+                               </ul>
+                               <h6>Shane Warn, Australia</h6>
+                        </div>
+                       </div>
+
+                       <div class="item">
+                        <div class="card">
+                           <div class="testiperimg">
+                               <img src="./Images/Testimonial/1stperson.jpg">
+                              </div>
+                              <p>Lorem ipsum is a placeholder text commonly 
+                               used to demonstrate the 
+                               visual form of a document or a typeface without
+                                relying on meaningful content. 
+                                 Lorem ipsum may be used as a placeholder 
+                               before final copy is available.</p>
+                               <ul class="fa_icon">
+                                   <li><i class="fa-solid fa-star"></i></li>
+                                   <li><i class="fa-solid fa-star"></i></li>
+                                   <li><i class="fa-solid fa-star"></i></li>
+                                   <li><i class="fa-solid fa-star"></i></li>
+                                   <li><i class="fa-regular fa-star"></i></li>
+                               </ul>
+                               <h6>Shane Warn, Australia</h6>
+                        </div>
+                       </div>
+
+                       <div class="item">
+                        <div class="card">
+                           <div class="testiperimg">
+                               <img src="./Images/Testimonial/1stperson.jpg">
+                              </div>
+                              <p>Lorem ipsum is a placeholder text commonly 
+                               used to demonstrate the 
+                               visual form of a document or a typeface without
+                                relying on meaningful content. 
+                                 Lorem ipsum may be used as a placeholder 
+                               before final copy is available.</p>
+                               <ul class="fa_icon">
+                                   <li><i class="fa-solid fa-star"></i></li>
+                                   <li><i class="fa-solid fa-star"></i></li>
+                                   <li><i class="fa-solid fa-star"></i></li>
+                                   <li><i class="fa-solid fa-star"></i></li>
+                                   <li><i class="fa-regular fa-star"></i></li>
+                               </ul>
+                               <h6>Shane Warn, Australia</h6>
+                        </div>
+                       </div>
+
+                       <div class="item">
+                        <div class="card">
+                           <div class="testiperimg">
+                               <img src="./Images/Testimonial/1stperson.jpg">
+                              </div>
+                              <p>Lorem ipsum is a placeholder text commonly 
+                               used to demonstrate the 
+                               visual form of a document or a typeface without
+                                relying on meaningful content. 
+                                 Lorem ipsum may be used as a placeholder 
+                               before final copy is available.</p>
+                               <ul class="fa_icon">
+                                   <li><i class="fa-solid fa-star"></i></li>
+                                   <li><i class="fa-solid fa-star"></i></li>
+                                   <li><i class="fa-solid fa-star"></i></li>
+                                   <li><i class="fa-solid fa-star"></i></li>
+                                   <li><i class="fa-regular fa-star"></i></li>
+                               </ul>
+                               <h6>Shane Warn, Australia</h6>
+                        </div>
+                       </div>
+
+                       <div class="item">
+                        <div class="card">
+                           <div class="testiperimg">
+                               <img src="./Images/Testimonial/1stperson.jpg">
+                              </div>
+                              <p>Lorem ipsum is a placeholder text commonly 
+                               used to demonstrate the 
+                               visual form of a document or a typeface without
+                                relying on meaningful content. 
+                                 Lorem ipsum may be used as a placeholder 
+                               before final copy is available.</p>
+                               <ul class="fa_icon">
+                                   <li><i class="fa-solid fa-star"></i></li>
+                                   <li><i class="fa-solid fa-star"></i></li>
+                                   <li><i class="fa-solid fa-star"></i></li>
+                                   <li><i class="fa-solid fa-star"></i></li>
+                                   <li><i class="fa-regular fa-star"></i></li>
+                               </ul>
+                               <h6>Shane Warn, Australia</h6>
+                        </div>
+                       </div>
+
+                       <div class="item">
+                        <div class="card">
+                           <div class="testiperimg">
+                               <img src="./Images/Testimonial/1stperson.jpg">
+                              </div>
+                              <p>Lorem ipsum is a placeholder text commonly 
+                               used to demonstrate the 
+                               visual form of a document or a typeface without
+                                relying on meaningful content. 
+                                 Lorem ipsum may be used as a placeholder 
+                               before final copy is available.</p>
+                               <ul class="fa_icon">
+                                   <li><i class="fa-solid fa-star"></i></li>
+                                   <li><i class="fa-solid fa-star"></i></li>
+                                   <li><i class="fa-solid fa-star"></i></li>
+                                   <li><i class="fa-solid fa-star"></i></li>
+                                   <li><i class="fa-regular fa-star"></i></li>
+                               </ul>
+                               <h6>Shane Warn, Australia</h6>
+                        </div>
+                       </div>
+                    
+                </div>
+               </div>
+        </section>
+        <!--Visitors Reviews section close-->
+        <!--Blog section-->
+       <section id="blog">
+        <div class="blogsec">
+            <div class="container">
+                <div class="row">
+                    <h2>Our Blogs</h2>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="card">
+                            <div class="blogsecimg">
+                                <img src="./Images/blog/1st.jpg">
+                            </div>
+                            <div class="catganitag">
+                                 <p>Zoo News</p>
+                            </div>
+                            <div class="bloginfo">
+                                <ul class="blogsecinfo">
+                                    <li><img src="./Images/ICONS/profile.svg"><span> By admin</span></li>
+                                    <li><img src="./Images/ICONS/calender.svg"><span> 11 March 2023</span></li>
+                                </ul>
+                                <h5>Everything Need To Know About Lions</h5>
+                                <a href="#" class="readbut">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="card">
+                            <div class="blogsecimg">
+                                <img src="./Images/blog/2d (1).jpg">
+                            </div>
+                            <div class="catganitag">
+                                 <p>Zoo Animals</p>
+                            </div>
+                            <div class="bloginfo">
+                                <ul class="blogsecinfo">
+                                    <li><img src="./Images/ICONS/profile.svg"><span> By admin</span></li>
+                                    <li><img src="./Images/ICONS/calender.svg"><span> 11 March 2023</span></li>
+                                </ul>
+                                
+                                <h5>Everything Need To Know About Lions</h5>
+                                <a href="#" class="readbut">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="card">
+                            <div class="blogsecimg">
+                                <img src="./Images/blog/2d (2).jpg">
+                            </div>
+                            <div class="catganitag">
+                                 <p>Wild Life</p>
+                            </div>
+                            <div class="bloginfo">
+                                <ul class="blogsecinfo">
+                                    <li><img src="./Images/ICONS/profile.svg"><span> By admin</span></li>
+                                    <li><img src="./Images/ICONS/calender.svg"><span> 11 March 2023</span></li>
+                                </ul>
+                                
+                                <h5>Everything Need To Know About Lions</h5>
+                                <a href="#" class="readbut">Read more</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </section>
+<!--Blog section close-->
+<!--Contact Us Section-->
+<section class="Contact_sec" id="contactus">
+       <div class="container">
+          <div class="row">
+            <h2>Contact Us Form</h2>
+                <div class="col-lg-6">
+                    <div class="input_box">
+                    <input type="text" required="required" id="name">
+                    <label for="name" class="text">Name</label>
+                    <span class="line"></span>
+                   </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="input_box">
+                    <input type="text" required="required" id="Phone no">
+                    <label for="Phonenumber" class="text">Phone no</label>
+                    <span class="line"></span>
+                   </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="input_box">
+                    <input type="text" required="required" id="Phoneno">
+                    <label for="subject" class="text">Subject</label>
+                    <span class="line"></span>
+                   </div>
+                </div>
+                </div>
+                <div class="col-lg-12 textarea">
+                    <div class="input_box">
+                    <textarea required="required" id="message"></textarea>
+                    <label for="message" class="text">Message</label>
+                    <span class="line"></span>
+                   </div>
+                </div>
+                <div class="col-lg-6">
+                    <input type="submit" value="send">
+                </div>
+                
+          </div>
+       </div>
+</section>
+
+<!--Contact Us Section close-->
+<!--FaQ section-->
+        <section class="FAQ_sec">
+            <div class="container">
+                <h6>ASK ANY QUESTION</h6>
+                <h3>Frequently     <span>Asked</span>     Questions</h3>
+                <p>We, at 99edu Institute, have designed each of our professional courses to meet the current market trends. 
+                    Getting jobs with a reputable company is no longer difficult. </p>
+                    <div class="accordion" id="accordionExample">
+                        <ul>
+                            <li>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              <h5>Is this course suitable for beginners in
+                                digital marketing?</h5>
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <p>Absolutely! Our courses are designed to provide practical hands-on experience through real-world projects, ensuring you gain the necessary skills to excel in the industry.</p>
+                            </div>
+                          </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <h5>Is this course suitable for beginners in
+                                    digital marketing?</h5>
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>Absolutely! Our courses are designed to provide practical hands-on experience through real-world projects, ensuring you gain the necessary skills to excel in the industry.</p>
+                            </div>
+                          </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <h5>Is this course suitable for beginners in
+                                    digital marketing?</h5>
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>Absolutely! Our courses are designed to provide practical hands-on experience through real-world projects, ensuring you gain the necessary skills to excel in the industry.</p>
+                            </div>
+                          </div>
+                        </div>
+                    </li>
+                      </div>
+                    </ul>
+              </div>
+        </section>
+<!--FaQ section close-->
+
+<!--Footer section-->
+     <section>
+                <div class="footersec">
+                    <div class="container">
+                        <div class="topfootersec">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-12">
+                                 <img src="./Images/logo/logo_footwe.png" class="img-fluid">
+                                 <div class="footerinfo">
+                                    <p>Enjoy The Jungle Life And Bring Your Friends To The AstroZoo. AstroZoo Is A Place Where You Can See Nature In Its Wildlife. Visit AstroZoo And Discover A Different World.</p>
+                                    <ul class="fab_icon">
+                                        <li><a href="#"><img src="./Images/ICONS/fb.svg"></a></li>
+                                        <li><a href="#"><img src="./Images/ICONS/twitter.svg"></a></li>
+                                        <li><a href="#"><img src="./Images/ICONS/youtube.svg"></a></li>
+                                        <li><a href="#"><img src="./Images/ICONS/instagram.svg"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-3">
+                                <div class="footernav">
+                                    <h5>Animals</h5>
+                                    <ul>
+                                        <li><a href="#">Giraffe</a></li>
+                                        <li><a href="#">Tiger</a></li>
+                                        <li><a href="#">Lion</a></li>
+                                        <li><a href="#">Snake</a></li>
+                                        <li><a href="#">Crocodile</a></li>
+                                        <li><a href="#">Bear</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-3">
+                                <div class="footernav">
+                                    <h5>Useful Links</h5>
+                                    <ul>
+                                        <li><a href="#">Know the Zoo</a></li>
+                                        <li><a href="#">Services</a></li>
+                                        <li><a href="#">Animals</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Visitors Review</a></li>
+                                        <li><a href="#">Shop</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-6">
+                                <div class="footseccontact_info">
+                                    <h5>Contact Info</h5>
+                                    <ul>
+                                        <li><a href="#">139, DumDum,Purba Sithi Road  Kolkata-700030</a></li>
+                                         <li><a href="tel:8116561160">  +91 8116561160</a></li>
+                                         <li><a href="mailto:8116561160">  subhamblue42@gmail.com</a></li>   
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                        <div class="coationline">
+                        <p>Designed by <span> SS_Design</span> | All Rights Reserved</p>
+                    </div>
+                    </div>
+                </div>
+     </section> 
+<!--Footer section close-->
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><span"><img src="./Images/aboutpage/Group 1378.svg" style="width: 30px; height: 30px;"></span></button>
+
+        
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/jquery.slimmenu.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script>
+$('.slimmenu').slimmenu(
+{
+    resizeWidth: '991',
+    collapserTitle: 'Main Menu',
+    animSpeed:'medium',
+    indentChildren: true,
+    childrenIndenter: '&raquo;'
+});
+</script>
+</body>
+</html>

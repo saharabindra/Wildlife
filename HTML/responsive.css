@@ -1,0 +1,677 @@
+@media screen and (max-width: 1199px) {
+    
+    .headbar ul li
+    {
+        margin: 0 10px;
+    font-size: 15px;
+    }
+    .bannersec h1{
+        font-size: 35px; 
+    }
+    .aboutfirstcontainsec h3{
+        font-size: 32px;
+    }
+    
+}
+
+
+@media screen and (max-width: 1024px) {
+
+.aboutshape{
+    display: none;
+}
+.firstcontsec{
+    padding: 60px 0;
+}
+.firstcontsec h3{
+    font-size: 30px;
+}
+.firstcontsec h5{
+    font-size: 16px;
+}
+a.discoverbut{
+    padding: 7px 22px;
+    font-size: 15px;
+}
+.secondcontinfo h3{
+    font-size: 30px ;
+}
+.secondcontinfo h5{
+    font-size: 20px;                
+    line-height: 32px;
+    margin: 0 0 20px 0;
+}
+.firstcontsec p, .firstcontinfo li{
+    font-size: 15px;
+}
+.secondcontinfo li{
+    font-size: 16px;
+}
+.serviceiconimg img{
+    max-width: 50px;
+}
+.servicecontain h3 {
+    font-size: 20px;
+    padding: 13px 0;
+    }
+    .servicecontain p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+    .servicesec h2{
+        font-size: 40px;
+    }
+    .ouranimalsec h2{
+        font-size: 40px;
+    }
+    .ouranimal_info h6{
+        font-size: 15px;
+    }
+    .ouranimal_info h4{
+        font-size: 20px;
+    }
+    .secondcontsec{
+        padding: 90px 0;
+    }
+    .servicesec{
+        padding: 90px;
+    }
+.Reviewsec{
+padding: 100px 0;
+
+}
+.Reviewsec h2{
+    padding: 0 0 50px 0;
+    font-size: 40px;
+}
+.blogsec h2{
+    font-size: 40px;
+    padding: 90px 0 40px 0;
+}
+ul.blogsecinfo li span{
+    font-size: 15px;
+
+}
+.blogsec h5{
+    font-size: 20px;
+}
+a.readbut{
+    padding: 5px 23px;
+}
+.Contact_sec h2{
+    padding: 90px 0 50px 0;
+    font-size: 40px;
+}
+.FAQ_sec h3{
+    font-size: 35px;
+}
+.FAQ_sec p{
+   font-size: 15px;
+}
+.accordion-item h5{
+    font-size: 18px;
+}
+.FAQ_sec .accordion-body p{
+    font-size: 15px;
+}
+.footersec h5{
+    font-size: 20px;
+}
+.footerinfo p{
+    font-weight: 400;
+    font-size: 14px;
+}
+.footernav ul li a{
+    font-size: 14px;
+}
+.footseccontact_info ul li a{
+    font-size: 13px;
+}
+.footseccontact_info ul li{
+    margin-bottom: 10px;
+}
+.footernav ul li{
+    line-height: normal;
+}
+.coationline p{
+    font-size: 15px;
+}
+.leftimg{
+    padding-left: 0;
+}
+.secondcontinfo{
+    padding-left: 0;
+}
+#myBtn{
+    padding: 11px;
+}
+.aboutbannersec h1{
+    font-size: 35px;
+}
+.aboutfirstcontainsec p{
+    font-size: 16px;
+}
+.aboutsecondcontain h3 {
+    font-size: 35px;
+
+}
+.aboutsecondcontain p {
+    font-size: 15px;
+}
+.aboutsecondcontain span {
+    font-size: 62px;
+    margin-left: 15px;
+}
+.aboutsecondcontain .numbercount h2{
+    font-size: 62px;
+}
+.aboutsecondcontain h2{
+    font-size: 32px;
+}
+.aboutbannersec {
+    height: 279px;
+}
+.aboutbannersec h1 {
+    font-size: 32px;
+}
+.aboutfirstcontainsec h3 {
+    font-size: 29px;
+}
+.aboutfirstcontainsec h3 {
+    padding-bottom: 10px;
+}
+.firstcontainp {
+    padding: 20px 0;
+}
+.firstcontainbutton {
+    padding-top: 23px;
+}
+.aboutsecondcontain .numbercount h2 {
+    font-size: 56px;
+}
+.aboutsecondcontain span {
+    font-size: 56px;
+}
+.aboutsecondcontain span {
+    font-size: 56px;
+}
+.ourteamsec h3{
+    font-size: 35px;
+}
+#myBtn {
+    right: 18px;
+}
+.ourteamsec h5{
+    font-size: 24px;
+}
+.ourteamsec p {
+    line-height: 24px;
+}
+
+@media screen and (max-width: 991px) {
+
+    .headersec
+    {
+        display: none;
+    }
+    .top-bg-sec{
+        padding: 20px;
+    }
+    .bodysec h2{
+        font-size: 17px;
+    }
+    .bodysec p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .topsec{
+        margin: -78px 0 0 0px;
+    }
+    .image-position{
+        top:42%;
+    }
+    .bannersec .owl-theme .owl-nav button.owl-prev{
+        top: 67px;
+        background-size: 10px auto;
+    }
+    .bannersec .owl-theme .owl-nav button.owl-next{
+        top: 154px;
+        background-size: 10px auto;
+    }
+    .bannersec .owl-theme .owl-nav button{
+       font-size: 20px; 
+       width: 40px;
+       height: 40px;
+    }
+    .firstcontsecondimg{
+        width: 150px;
+        height: 150px;
+    }
+    .firstcontsec h3{
+        font-size: 23px;
+    }
+    .firstcontsec h5{
+        padding-top: 13px;
+    }
+    .firstcontsec p{
+        line-height: normal;
+        padding-top: 14px;
+    }
+    .firstcontinfo{
+        padding-left: 0;
+    }
+    .abouthirdcont{
+        font-size: 14px;
+    }
+    .firstcontinfo ul {
+        margin: 10px 0;
+    }
+    .secondcontinfo h3{
+        font-size: 24px ;
+    }   
+    .secondcontinfo h5{
+        line-height: 31px;
+        font-size: 16px;
+    } 
+    .abouthirdcont {
+        font-size: 14px;
+        margin-left: 12px;
+    }
+    .servicesec h2{
+        font-size: 23px ;
+        padding: 0;
+    }
+    .servicesec {
+        padding: 45px;
+    }
+    .servicecontain h3{
+        font-size: 13px;
+    }
+    .servicecontain p{
+        font-size: 15px;
+        line-height: normal;
+    }
+    .ouranimalsec h2{
+        font-size: 30px;
+    }   
+    .Reviewsec h2{
+        font-size: 35px;
+    }
+    .Reviewsec {
+        padding: 80px 0;
+    }
+    .testiperimg{
+        width: 120px;
+        height: 120px;
+    }
+    .Reviewsec .card{
+        padding: 85px 30px;
+    }
+    .blogsec h2{
+        padding-top: 76px;
+    }
+    ul.blogsecinfo li span{
+        font-size: 10px;
+        line-height: normal;
+    }
+    .blogsec h5 {
+        font-size: 17px;
+        line-height: 21px;
+        margin-bottom: 17px;
+    }
+    .Contact_sec h2{
+        padding-top: 56px;
+    }
+    .footernav ul li a{
+        font-size: 12px;
+    }
+    .footseccontact_info ul li a{
+        font-size: 11px;
+    }
+    .footerinfo p{
+        font-size: 12px;
+    }
+    .coationline p {
+        font-size: 14px;
+    }
+    .bodysec{
+        padding-top: 15px;
+    }
+    .headbar button{
+        font-size: 15px;
+        border-radius: 10px;
+        padding: 8px 20px;
+    }
+    .headbar
+    {
+    padding: 0;
+    }
+    .mobheadersec{
+        display: block;
+    }
+    .headersec{
+        display: none;
+    }
+    .bannersec{
+        margin-top: 0;
+    }
+    .aboutbannersec{
+        margin-top: 0;
+    }
+    .aboutfirstcontainsec h3 {
+        font-size: 23px;
+    }
+    .aboutfirstcontainsec p {
+        font-size: 13px;
+    }
+    .firstcontaininfo {
+        padding-left: 6px;
+}
+    .firstcontainp {
+    padding: 8px 0;
+}
+    .aboutfirstcontainsec {
+    padding: 83px 0;
+}
+    .firstcontainbutton {
+    padding-top: 10px;
+}
+    .aboutsecondcontain{
+        padding: 80px 0;
+    }
+    .aboutsecondcontain .numbercount h2 {
+        font-size: 44px;
+    }
+    .aboutsecondcontain p {
+        font-size: 13px;
+    }
+    .aboutsecondcontain {
+        height: 432px;
+    }
+    .ourteamsec h3 {
+        font-size: 30px;
+    }
+    .ourteamsec h5 {
+        font-size: 18px;
+    }
+    .ourteamimg span {
+        font-size: 15px;
+}
+    .ourteamsec{
+        padding: 80px 0;
+    }
+    .iconwithtext {
+        width: 23%;
+    }
+    .aboutbannercont {
+        padding: 98px 0;
+    }
+    .blogcontainsec .blogzoonews{
+        padding: 14px 25px;
+    }
+}
+@media screen and (max-width: 767px) {
+    
+    
+    .topseccontbdr img{
+        width: 100px;
+        height: auto;
+    }
+    .bannersec .owl-theme .owl-nav button.owl-prev {
+        top: 30px;
+        background-size: 10px auto;
+
+}
+.bannersec h2{
+    padding-bottom: 4px;
+}
+.bannersec h1 {
+    font-size: 24px;
+}
+.bannersec h1{
+    padding-bottom: 4px;
+}
+a.discoverbut {
+    padding: 3px 14px;
+    font-size: 11px;
+}
+.bodysec h2 {
+    font-size: 13px;
+}
+.bodysec p {
+    font-size: 11px;
+    line-height: normal;
+}
+.topsec {
+    margin: -69px 0 0 0px;
+}
+.bannersec .owl-theme .owl-nav button.owl-next {
+    top: 80px;
+}
+.top-bg-sec {
+    padding: 11px;
+}
+.firstcontsecondimg{
+    width: 135px;
+    height: 135px;
+    right: 9px;
+    
+}
+.firstcontsec h3{
+    font-size: 18px;
+}
+.firstcontsec h5 {
+    font-size: 14px;
+}
+.firstcontsec p, .firstcontinfo li {
+    font-size: 15px;
+}
+.abouthirdcont{
+    font-size: 9px;
+}
+.secondcontinfo h3{
+    font-size: 18px;
+
+}
+.secondcontinfo h5{
+    font-size: 17px;
+}
+.abouthirdcont {
+    font-size: 16px;
+}
+.FAQ_sec h3{
+    font-size: 28px;
+    line-height: normal;
+}
+.footernav ul li a{
+    font-size: 9px;
+}
+ul.fab_icon li{
+    margin-left: 5px;
+    
+}
+.footerinfo p {
+    font-size: 10px;
+    line-height: normal;
+}
+.footersec h5{
+    font-size: 15px;
+}
+.Contact_sec h2 {
+    font-size: 35px;
+}
+.blogsec {
+    padding-bottom: 80px;
+}
+.firstcontinfo li{
+    padding-bottom: 0;
+}
+.accordion-item h5 {
+    font-size: 13px;
+}
+/*.accordion-button.collapsed::before{
+    left: 15px;
+    width: 20px;
+    height: 20px;
+}
+.accordion-button{
+    padding-left: 50px;
+}
+.accordion-button::before{
+    padding-left: 15px;
+}*/
+.accordion-button.collapsed::before, .accordion-button::before{
+    width: 20px;
+    height: 20px;
+    left: 15px;
+}
+.accordion-button{
+    padding-left: 50px;
+}
+.footernav ul li{
+    margin-bottom: 0;
+}
+.coationline p{
+    font-size: 11px;
+}
+.bannersec h1{
+    font-size: 20px;
+}
+.topsec {
+    margin: 0;
+}
+.topseccontbdr{
+    margin-top: 20px;
+}
+ul.headinfo li a{
+    font-size: 0;
+}
+#myBtn {
+    padding: 7px;
+}
+.aboutfirstcontainsec h3{
+    padding-top: 40px;
+}
+.aboutsecondcontain {
+    padding: 43px 0;
+}
+.aboutsecondcontain p{
+    line-height: normal;
+}
+.aboutsecondcontain h3{
+    padding-bottom: 12px;
+}
+.ourteamimg{
+    margin-bottom: 30px;
+}
+.blogcontainsec .blogzoonews {
+left: 46px;
+top: 78px;
+}
+.iconwithtext {
+    width: 35%;
+}
+.blogcontainsec h2 {
+    font-size: 23px;
+}
+.blogcontainsec .containdetail {
+
+    padding: 30px 0;
+}
+.blogcontainsec p{
+    line-height: 30px;
+    padding: 28px 0;
+}
+.bannersec{
+    height: 324px;
+}
+.image-position {
+    top: 47%;
+}
+.bannersec .owl-theme .owl-nav button.owl-next {
+    top: 158px;
+}
+.bannersec .owl-theme .owl-nav button.owl-prev {
+    top: 94px;
+    background-size: 10px auto;
+}
+.aboutbannercont{
+    margin-left: 30px;
+}
+ul.blogsecinfo li span {
+    font-size: 15px;
+}
+@media screen and (max-width: 479px) {
+
+    .topfootersec .col-3, .topfootersec .col-3, .topfootersec .col-6
+    {
+        width: 100%;
+    }
+    .footerinfo p {
+        font-size: 13px;
+        line-height: 26PX;
+    }
+    .footernav ul li a {
+        font-size: 15px;
+    }
+    ul.headinfo li a{
+        font-size: 0;
+    }
+    .firstcontsec .col-5 , .firstcontsec .col-7{
+         width: 100%;
+    }
+    .secondcontsec .col-6 , .secondcontsec .col-6{
+        width: 100%;
+    }
+    .footersec h5 {
+        font-size: 25px;
+    }
+    .footernav ul li a {
+        font-size: 16px;
+    }
+    .footseccontact_info ul li a{
+        font-size: 15px;
+    }
+    .aboutbannercont {
+        padding: 73px 0;
+    }
+    .aboutbannersec {
+        height: 225px;
+    }
+    .aboutbannersec h1 {
+        font-size: 28px;
+    }
+    .aboutfirstcontainsec {
+        padding: 48px 0;
+    }
+    .aboutsecondcontain h3 {
+        font-size: 25px;
+    }
+    .numbercount h2 {
+        font-size: 40px;
+    }
+    .aboutsecondcontain span {
+        font-size: 35px;
+    }
+    .blogcontainsec {
+        padding: 64px 0;
+    }
+    .blogcontainsec .blogzoonews {
+        left: 36px;
+        top: 54px;
+        padding: 11px 18px;
+    }
+    .iconwithtext {
+        width: 47%;
+    }
+    .blogcontainsec h2 {
+        font-size: 18px;
+    }
+    .ouranimalsec h2{
+        padding: 59px 0 50px 0;
+ 
+    }
+
+}
+}
+}
